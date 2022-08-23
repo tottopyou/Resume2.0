@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+}
+.main{
+    display: flex;
+    background-color: rgb(33,30,41);
+    justify-content: center;
+}
+.left{
+    margin: 15px ;
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.mini-foto{
+    display: flex;
+    background-color: rgb(38, 36, 49);
+    height: 210px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.incognito{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    
+}
+.name {
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    color: white;
+}
+.job{
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+    color:rgb(127,125,137) ;
+}
+.column {
+    background-color: rgb(34,32,43);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(38,36,49);
+}
+.link {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: lightgray;
+}
+.right{
+    margin: 15px;
+    background-color: rgb(34,32,43);
+    height: 100vh;
+    width: 75px;
+    display: flex;
+}
+.center{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rebeccapurple;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 75px;
+    height: 75px;
+}
+.btn-menu{
+    background-color:rgb(38,37,51);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.home{
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: white;
+}
+.about{
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    width: 300px;
+    height: 120px;
+    justify-content: space-between;
+}
+.bold{
+    font-weight: bold;
+    color: white;
+}
+
+.peregorodka{
+    width: 300px;
+    height: 4px;
+    background-color:rgb(50,48,59);
+    border-radius: 10px;
+
+}
+.Obomne{
+    color:rgb(127,125,137);
+}
+
+.fotka{
+    opacity:0.5;
+}
